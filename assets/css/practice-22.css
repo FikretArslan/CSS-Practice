@@ -1,0 +1,17 @@
+body{
+    padding:1rem 2rem;
+}
+section.container{
+    text-align:center;
+}
+section.container div.cards{
+    display:flex;
+    gap:2rem;
+    margin-top:1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.container div.cards div{
+    border:1px solid #ddd;
+    width:30%;
+}

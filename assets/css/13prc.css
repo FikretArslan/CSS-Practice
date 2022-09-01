@@ -1,0 +1,44 @@
+body {
+  background-color: azure;
+  padding:1rem;
+}
+h1,
+h2 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  margin-bottom:2rem;
+}
+.container div{
+  padding:.8rem;
+}
+.container div:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.icerik {
+  display: flex;
+  gap: 50px;
+}
+.icerik img,.icerik ul{
+  flex:1;
+}
+.icerik p{
+  flex:3;
+}
+.icerik li {
+  padding: 10px;
+  list-style-type: none;
+}
+.icerik p::first-letter {
+  font-weight: bolder;
+  font-size: 75px;
+}
+.icerik li::first-letter {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  background-color: coral;
+}

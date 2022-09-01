@@ -1,0 +1,33 @@
+body{
+    background-color: green;
+    text-align: center;
+    padding:1rem;
+}
+main{
+    background-color: azure;
+    padding:1rem 0.5rem;
+    height:80vh;
+}
+main div.list1{
+ width:10%;
+ background-color:antiquewhite;
+ padding:.5rem 1.5rem;
+ margin-right:0;
+ margin-left:auto;
+}
+main p.ilk{
+    background-color:brown;
+    padding:0.5rem;
+}
+main div.list2{
+    background-color:pink;
+    padding:1rem 2rem;
+    width:20%;
+    margin-right: auto;
+    margin-left:auto;
+}
+main div.list2 ol,main div.list1 ol{
+    list-style-position: inside;
+    margin:0;
+    padding:0;
+}

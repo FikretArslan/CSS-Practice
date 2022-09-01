@@ -1,0 +1,36 @@
+body{
+    
+    background-color: aqua;
+}
+section{
+    background-color:antiquewhite ;
+    padding-bottom:3rem;
+}
+div{
+    text-align:center;
+}
+.pembe,.yesil,.mavi{
+    color:white;
+}
+.pembe{
+    width:200px;
+    background-color: pink;
+    /*margin-right:auto;
+    margin-left:auto;*/
+    margin:1rem auto;
+}
+.mavi{
+    background-color:blue;
+    width:230px;
+}
+.yesil{
+    width:250px;
+    background-color:green;
+    margin-left:auto;
+    margin-right:0;
+}
+.sari{
+    width:270px;
+    background-color:yellow;
+    margin-left:5rem;  
+}

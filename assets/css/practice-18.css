@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    background-color: brown;
+    margin:0;
+}
+div.ust{
+    padding:3rem 2rem;
+    background-color:green;
+}
+div.ust h2{
+    background-color:aquamarine;
+}
+div.ust div h3{
+    background-color:burlywood;
+}
+div.alt{
+    background-color:blueviolet;
+    padding:2rem .5rem;
+}
+div.alt h2{
+    background-color: blanchedalmond;
+}
+div.alt div h3{
+    background-color: beige;
+}
